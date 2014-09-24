@@ -1,0 +1,29 @@
+{
+  "name": "gather-server",
+  "version": "0.0.1",
+  "description": "server for the gather game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha server.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mvexel/gather-server.git"
+  },
+  "author": "Martijn van Exel",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/mvexel/gather-server/issues"
+  },
+  "dependencies": {
+    "mongoskin": "1.4.1",
+    "express": "4.8.1",
+    "body-parser": "1.0.2"
+  },
+  "devDependencies": {
+    "expect.js": "0.3.1",
+    "mocha": "1.18.2",
+    "superagent": "0.17.0"
+  }
+}
